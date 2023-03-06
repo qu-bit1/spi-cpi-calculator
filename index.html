@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPI-CPI CALCULATOR</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1><span class="deco">SPI-CPI</span> CALCULATOR</h1>
+    </header>
+    <div class="header">
+        <div class="branch">
+            Enter Your Department: <select class="semcalc">
+                <option>Select Department</option>
+                <option>AE</option>
+                <option>BSBE</option>
+                <option>CHE</option>
+                <option>CHM</option>
+                <option>CE</option>
+                <option>CSE</option>
+                <option>EE</option>
+                <option>ES</option>
+                <option>ECO</option>
+                <option>MSE</option>
+                <option>MTH</option>
+                <option>ME</option>
+                <option>PHY</option>
+                <option>SDS</option>
+            </select>
+        </div>
+        <section class="yuval">
+        <p>In which semester did you have your ELC?</p>
+        <div class="choice">
+            <form name="choice" action="" method="post">
+                <select name="semch" class="semcalc">
+                    <option value="first">Semester 1</option>
+                    <option value="second">Semester 2</option>
+                </select>
+            </form>
+        </div>
+        </section>
+        <section class="hbtn">
+        <button class="spi1"><a id="firstsem" href="sem1g1.html">Calculate SPI for Semester 1</a></button>
+        <button class="spi2"><a id="secondsem" href="sem2g2.html">Calculate SPI for Semester 2</a></button>
+        <button><a id="cumsem" href="cpi1.html">Calculate CPI for both Semesters</a></button>
+        </section>
+    </div>
+</body>
+
+</html>
