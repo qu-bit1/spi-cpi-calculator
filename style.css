@@ -97,3 +97,14 @@ select{
 .header{
     margin: 40px 0px;
 }
+input{
+    font-size: 20px;
+    padding: 8px 12px;
+    border-radius: 10px;
+    color: black;
+    background-color: #a1df3c;
+    font-weight: 600;
+}
+body{
+    font-size: 20px;
+}
